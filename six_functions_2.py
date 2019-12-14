@@ -2,7 +2,7 @@ def square(number):
 	return number**2
 
 def sort(numbers):
-
+    
 	for i in range(len(numbers)):
 		min_val = numbers[i]
 		min_index = i
@@ -26,15 +26,18 @@ def f(arg1, arg2, arg3, arg4=2):
 def side_effect_func():
 	list1.pop(0)
 
+"""
 var1 = 2
 squared = square(var1)
 print(squared)
 
-list1 = [0 , 4, -3, 2, 7, 1]
+list1 = [0 , 4, -3, 2, 7, 1.4]
 print(sort(list1))
 
-f(1, 2, 5)
+f(1, 2, 3)
 
 print(list1)
 side_effect_func()
 print(list1)
+
+"""

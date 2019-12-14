@@ -4,6 +4,7 @@ def another_func(var):
 	print(var)
 	my_list = [6, 3, 0, 7, -1]
 	print(sort(my_list))
+	print(my_list)
 
 def called_func(var):
 	v2 = var**2
@@ -24,9 +25,10 @@ def multiple_return(my_list):
 if __name__ == "__main__":
 	print("Always this is printed")
 	print("Because main is always executed first")
-	another_func(3)
-	print(callee_func())
+	#another_func(3)
+	#print(callee_func())
 
 	ret1, ret2 = multiple_return([1, 3, 0, 6, 5])
+	print(str(ret1) + "   " + str(ret2))    
 
 # and try some mutual exclusion on variables

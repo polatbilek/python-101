@@ -31,11 +31,10 @@ print(np.shape(A))
 print(np.argmax(A[3]))
 print(np.ceil(0.3))
 
-print(random.rand())
+print(random.random())
+prob = random.random()
 
-prob = random.rand()
-
-if prob <= 0.5:
+if prob <= 0.7:
 	print("Head")
 else:
 	print("Tail")
